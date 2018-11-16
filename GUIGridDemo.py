@@ -9,12 +9,13 @@ root = tk.Tk()
 #These are just buttons,
 #NEED TO PACK AFTER THIS
 
-label = tk.Label(root, text = "Welcome to Concentration")
+label = tk.Label(root, text = "Mandarin Name Relative Finder")
 label.grid(row = 0, column = 0, columnspan = 2)
-#Columnspan spreads welcome to concentration over the
+#Columnspan spreads title over the
 #whole thing
 
 #Making grid, needs column and row
+
 
 btn1 = tk.Button(root, text = "1")
 btn1.config(width = 5, height = 5)
