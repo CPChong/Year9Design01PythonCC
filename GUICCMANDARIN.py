@@ -31,23 +31,17 @@ output = tk.Text(root,height = 30, width =10) #Parameters are what we send in.
 labInput1 = tk.Label(root, text = "Relative Calculator", font = ("Helvitica",20))
 labInput1.grid(row = 0, column = 1, sticky = "NESW")
 
-labInput1 = tk.Label(root, text = "First Relative", font = ("Helvitica",16))
+labInput1 = tk.Label(root, text = "亲戚的计算器", font = ("Helvitica",16))
 labInput1.grid(row = 2, column = 0, sticky = "NESW")
 
-labInput1 = tk.Label(root, text = "Second Relative", font = ("Helvitica",16))
+labInput1 = tk.Label(root, text = "两个亲戚", font = ("Helvitica",16))
 labInput1.grid(row = 2, column = 1, sticky = "NESW")
 
-labInput1 = tk.Label(root, text = "Third Relative", font = ("Helvitica",16))
+labInput1 = tk.Label(root, text = "三个亲戚", font = ("Helvitica",16))
 labInput1.grid(row = 2, column = 2, sticky = "NESW")
 
-labInput1 = tk.Label(root, text = "Relative", font = ("Helvitica",20))
+labInput1 = tk.Label(root, text = "亲戚", font = ("Helvitica",20))
 labInput1.grid(row = 14, column = 1, sticky = "NESW")
-
-labInput1 = tk.Label(root, text = "Y = Younger", font = ("Helvitica",14))
-labInput1.grid(row = 2, column = 3)
-
-labInput1 = tk.Label(root, text = "O = Older", font = ("Helvitica",14))
-labInput1.grid(row = 3, column = 3)
 
 output = tk.Text(root, width=35, height=3, borderwidth = 3, relief=tk.GROOVE)
 output.config(state = 'disabled')
@@ -87,10 +81,10 @@ var16 = tk.IntVar()
 
 #              FIRST RELATIVE
 
-cHC = tk.Checkbutton(root, text ="Dad", variable=var1)
+cHC = tk.Checkbutton(root, text ="爸爸", variable=var1)
 cHC.grid(row=4, column =0, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Mom", variable=var2)
+cHC = tk.Checkbutton(root, text ="妈妈", variable=var2)
 cHC.grid(row=5, column =0, sticky = "NESW")
 
 
@@ -99,49 +93,49 @@ cHC.grid(row=5, column =0, sticky = "NESW")
 
 
 
-cHC = tk.Checkbutton(root, text ="Dad", variable=var3, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="爸爸", variable=var3, font = ("Helvitica",13))
 cHC.grid(row=4, column =1, stick = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Mom", variable=var4, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="妈妈", variable=var4, font = ("Helvitica",13))
 cHC.grid(row=5, column =1, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Sister(Y)", variable=var5, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="妹妹", variable=var5, font = ("Helvitica",13))
 cHC.grid(row=6, column =1, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Sister(O)", variable=var6, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="姐姐", variable=var6, font = ("Helvitica",13))
 cHC.grid(row=7, column =1, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Brother(Y)", variable=var7, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="弟弟", variable=var7, font = ("Helvitica",13))
 cHC.grid(row=8, column =1, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Brother(O)", variable=var8, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="哥哥", variable=var8, font = ("Helvitica",13))
 cHC.grid(row=9, column =1, sticky = "NESW")
 
 
 
 #              THIRD RELATIVE
-cHC = tk.Checkbutton(root, text ="Dad", variable=var9, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="爸爸", variable=var9, font = ("Helvitica",13))
 cHC.grid(row=4, column =2, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Mom", variable=var10, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="妈妈", variable=var10, font = ("Helvitica",13))
 cHC.grid(row=5, column =2, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Sister(Y)", variable=var11, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="妹妹", variable=var11, font = ("Helvitica",13))
 cHC.grid(row=6, column =2, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Sister(O)", variable=var12, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="姐姐", variable=var12, font = ("Helvitica",13))
 cHC.grid(row=7, column =2, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Brother(Y)", variable=var13, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="弟弟", variable=var13, font = ("Helvitica",13))
 cHC.grid(row=8, column =2, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Brother(O)", variable=var14, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="哥哥", variable=var14, font = ("Helvitica",13))
 cHC.grid(row=9, column =2, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Son", variable=var15, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="儿子", variable=var15, font = ("Helvitica",13))
 cHC.grid(row=10, column =2, sticky = "NESW")
 
-cHC = tk.Checkbutton(root, text ="Daughter", variable=var16, font = ("Helvitica",13))
+cHC = tk.Checkbutton(root, text ="女儿", variable=var16, font = ("Helvitica",13))
 cHC.grid(row=11, column =2, sticky = "NESW")
  
 
