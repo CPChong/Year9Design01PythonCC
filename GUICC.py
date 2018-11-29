@@ -4,9 +4,19 @@
 #use. 
 import tkinter as tk
 
+from tkinter import ttk 
+
 #Main window
 root = tk.Tk() 
 # creates the standard main window.
+
+#			Tabs   
+root.title("GUI Tabs")
+
+tab1 = ttk.Frame(tabControl)
+tabControl.add(tab1, text="Tab1")
+tabControl.pack(expand=1, fill="both")
+
 
 
 
@@ -144,6 +154,11 @@ cHC.grid(row=10, column =2, sticky = "NESW")
 cHC = tk.Checkbutton(root, text ="Daughter", variable=var16, font = ("Helvitica",13))
 cHC.grid(row=11, column =2, sticky = "NESW")
  
+
+tab2 = ttk.Frame(tabControl)
+tabControl.add(tab2, text="Tab 2")
+tabControl.pack(expand=1, fill="both")
+
 
 
 root.mainloop() #Starts the program

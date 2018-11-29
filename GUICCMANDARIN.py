@@ -28,10 +28,10 @@ output = tk.Text(root,height = 30, width =10) #Parameters are what we send in.
 
 #					Titles
 
-labInput1 = tk.Label(root, text = "Relative Calculator", font = ("Helvitica",20))
+labInput1 = tk.Label(root, text = "亲戚的计算器", font = ("Helvitica",20))
 labInput1.grid(row = 0, column = 1, sticky = "NESW")
 
-labInput1 = tk.Label(root, text = "亲戚的计算器", font = ("Helvitica",16))
+labInput1 = tk.Label(root, text = "一个亲戚", font = ("Helvitica",16))
 labInput1.grid(row = 2, column = 0, sticky = "NESW")
 
 labInput1 = tk.Label(root, text = "两个亲戚", font = ("Helvitica",16))
@@ -89,9 +89,6 @@ cHC.grid(row=5, column =0, sticky = "NESW")
 
 
 #              SECOND RELATIVE
-
-
-
 
 cHC = tk.Checkbutton(root, text ="爸爸", variable=var3, font = ("Helvitica",13))
 cHC.grid(row=4, column =1, stick = "NESW")
