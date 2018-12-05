@@ -130,24 +130,6 @@ cHCe = tk.Checkbutton(tab1, text ="Daughter", variable=var16e, font = ("Helvitic
 cHCe.grid(row=11, column =2, sticky = "NESW")
  
 
-tabControl.add(tab1, text="English Version")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -279,7 +261,5 @@ cHCm.grid(row=11, column =2, sticky = "NESW")
  
 
 
-tabControl.add(tab2, text="Mandarin Version")
-
-tab1.mainloop()
-tab2.mainloop()
+tabControl.pack()
+root.mainloop()
