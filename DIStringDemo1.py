@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk 
 
 root = tk.Tk()
-root.title("Relative Calculator")
+root.title("Christopher Chong Nameanator")
 
 
 tabControl = ttk.Notebook(root)
@@ -161,13 +161,13 @@ output = tk.Text(tab2,height = 30, width =10) #Parameters are what we send in.
 labelm = tk.Label(tab2, text = "亲戚的计算器", font = ("Helvitica",20))
 labelm.grid(row = 0, column = 1, sticky = "NESW")
 
-labelm = tk.Label(tab2, text = "一个亲戚", font = ("Helvitica",16))
+labelm = tk.Label(tab2, text = "第一个亲戚", font = ("Helvitica",16))
 labelm.grid(row = 2, column = 0, sticky = "NESW")
 
-labelm = tk.Label(tab2, text = "两个亲戚", font = ("Helvitica",16))
+labelm = tk.Label(tab2, text = "第两个亲戚", font = ("Helvitica",16))
 labelm.grid(row = 2, column = 1, sticky = "NESW")
 
-labelm = tk.Label(tab2, text = "三个亲戚", font = ("Helvitica",16))
+labelm = tk.Label(tab2, text = "第三个亲戚", font = ("Helvitica",16))
 labelm.grid(row = 2, column = 2, sticky = "NESW")
 
 labelm = tk.Label(tab2, text = "亲戚", font = ("Helvitica",20))
