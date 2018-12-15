@@ -5,12 +5,12 @@ from tkinter import ttk
 def var1eFNC(*args):
 	var2e.set(0)
 	chineseName[0] = "ba ba"
-	display("var1")
+	displaye("var1e")
 
 def var2eFNC(*args):
 	var1e.set(0)
 	chineseName[0] = "ma ma"
-	display("var2")
+	displaye("var2e")
 
 def var3eFNC(*args):
 	var4e.set(0)
@@ -19,7 +19,7 @@ def var3eFNC(*args):
 	var7e.set(0)
 	var8e.set(0)
 	chineseName[1] = "ba ba"
-	display("var3")
+	displaye("var3e")
 
 def var4eFNC(*args):
 	var3e.set(0)
@@ -28,7 +28,7 @@ def var4eFNC(*args):
 	var7e.set(0)
 	var8e.set(0)
 	chineseName[1] = "ma ma"
-	display("var4")
+	displaye("var4e")
 
 def var5eFNC(*args):
 	var3e.set(0)
@@ -37,7 +37,7 @@ def var5eFNC(*args):
 	var7e.set(0)
 	var8e.set(0)
 	chineseName[1] = "mei mei"
-	display("var5")
+	displaye("var5e")
 
 def var6eFNC(*args):
 	var3e.set(0)
@@ -46,7 +46,7 @@ def var6eFNC(*args):
 	var7e.set(0)
 	var8e.set(0)
 	chineseName[1] = "jie jie"
-	display("var6")
+	displaye("var6e")
 
 def var7eFNC(*args):
 	var3e.set(0)
@@ -55,7 +55,7 @@ def var7eFNC(*args):
 	var6e.set(0)
 	var8e.set(0)
 	chineseName[1] = "di di"
-	display("var7")
+	displaye("var7e")
 
 def var8eFNC(*args):
 	var3e.set(0)
@@ -64,7 +64,7 @@ def var8eFNC(*args):
 	var6e.set(0)
 	var7e.set(0)
 	chineseName[1] = "ge ge"
-	display("var8")
+	displaye("var8e")
 
 def var9eFNC(*args):
 	var10e.set(0)
@@ -75,7 +75,7 @@ def var9eFNC(*args):
 	var15e.set(0)
 	var16e.set(0)
 	chineseName[2] = "ba ba"
-	display("var9")
+	displaye("var9e")
 
 def var10eFNC(*args):
 	var9e.set(0)
@@ -86,7 +86,7 @@ def var10eFNC(*args):
 	var15e.set(0)
 	var16e.set(0)
 	chineseName[2] = "ma ma"
-	display("var10")
+	displaye("var10e")
 
 def var11eFNC(*args):
 	var9e.set(0)
@@ -97,7 +97,7 @@ def var11eFNC(*args):
 	var15e.set(0)
 	var16e.set(0)
 	chineseName[2] = "mei mei"
-	display("var11")
+	displaye("var11e")
 
 def var12eFNC(*args):
 	var9e.set(0)
@@ -108,7 +108,7 @@ def var12eFNC(*args):
 	var15e.set(0)
 	var16e.set(0)
 	chineseName[2] = "jie jie"
-	display("var12")
+	displaye("var12e")
 
 def var13eFNC(*args):
 	var9e.set(0)
@@ -119,7 +119,7 @@ def var13eFNC(*args):
 	var15e.set(0)
 	var16e.set(0)
 	chineseName[2] = "di di"
-	display("var13")
+	displaye("var13e")
 
 def var14eFNC(*args):
 	var9e.set(0)
@@ -130,7 +130,7 @@ def var14eFNC(*args):
 	var15e.set(0)
 	var16e.set(0)
 	chineseName[2] = "ge ge"
-	display("var14")
+	displaye("var14e")
 
 def var15eFNC(*args):
 	var9e.set(0)
@@ -139,9 +139,9 @@ def var15eFNC(*args):
 	var12e.set(0)
 	var13e.set(0)
 	var14e.set(0)
-	var16e.set(o)
+	var16e.set(0)
 	chineseName[2] = "er zi"
-	display("var15")
+	displaye("var15e")
 
 def var16eFNC(*args):
 	var9e.set(0)
@@ -152,169 +152,9 @@ def var16eFNC(*args):
 	var14e.set(0)
 	var15e.set(0)
 	chineseName[2] = "nu er"
-	display("var16")
+	displaye("var16e")
 
-#*************************************************************************************
-#*********************************MANDARIN********************************************
-#*************************************************************************************
-
-
-def var1mFNC(*args):
-	var2m.set(0)
-	chineseName[0] = "爸爸"
-	display("var1")
-
-def var2mFNC(*args):
-	var1m.set(0)
-	chineseName[0] = "妈妈"
-	display("var2")
-
-def var3mFNC(*args):
-	var4m.set(0)
-	var5m.set(0)
-	var6m.set(0)
-	var7m.set(0)
-	var8m.set(0)
-	chineseName[1] = "爸爸"
-	display("var3")
-
-def var4mFNC(*args):
-	var3m.set(0)
-	var5m.set(0)
-	var6m.set(0)
-	var7m.set(0)
-	var8m.set(0)
-	chineseName[1] = "妈妈"
-	display("var4")
-
-def var5mFNC(*args):
-	var3m.set(0)
-	var4m.set(0)
-	var6m.set(0)
-	var7m.set(0)
-	var8m.set(0)
-	chineseName[1] = "妹妹"
-	display("var5")
-
-def var6mFNC(*args):
-	var3m.set(0)
-	var4m.set(0)
-	var5m.set(0)
-	var7m.set(0)
-	var8m.set(0)
-	chineseName[1] = "姐姐"
-	display("var6")
-
-def var7mFNC(*args):
-	var3m.set(0)
-	var4m.set(0)
-	var5m.set(0)
-	var6m.set(0)
-	var8m.set(0)
-	chineseName[1] = "弟弟"
-	display("var7")
-
-def var8mFNC(*args):
-	var3m.set(0)
-	var4m.set(0)
-	var5m.set(0)
-	var6m.set(0)
-	var7m.set(0)
-	chineseName[1] = "哥哥"
-	display("var8")
-
-def var9mFNC(*args):
-	var10m.set(0)
-	var11m.set(0)
-	var12m.set(0)
-	var13m.set(0)
-	var14m.set(0)
-	var15m.set(0)
-	var16m.set(0)
-	chineseName[2] = "ba ba"
-	display("var9")
-
-def var10mFNC(*args):
-	var9m.set(0)
-	var11m.set(0)
-	var12m.set(0)
-	var13m.set(0)
-	var14m.set(0)
-	var15m.set(0)
-	var16m.set(0)
-	chineseName[2] = "妈妈"
-	display("var10")
-
-def var11mFNC(*args):
-	var9m.set(0)
-	var10m.set(0)
-	var12m.set(0)
-	var13m.set(0)
-	var14m.set(0)
-	var15m.set(0)
-	var16m.set(0)
-	chineseName[2] = "妹妹"
-	display("var11")
-
-def var12mFNC(*args):
-	var9m.set(0)
-	var10m.set(0)
-	var11m.set(0)
-	var13m.set(0)
-	var14m.set(0)
-	var15m.set(0)
-	var16m.set(0)
-	chineseName[2] = "姐姐"
-	display("var12")
-
-def var13mFNC(*args):
-	var9m.set(0)
-	var10m.set(0)
-	var11m.set(0)
-	var12m.set(0)
-	var14m.set(0)
-	var15m.set(0)
-	var16m.set(0)
-	chineseName[2] = "弟弟"
-	display("var13")
-
-def var14mFNC(*args):
-	var9m.set(0)
-	var10m.set(0)
-	var11m.set(0)
-	var12m.set(0)
-	var13m.set(0)
-	var15m.set(0)
-	var16m.set(0)
-	chineseName[2] = "哥哥"
-	display("var14")
-
-def var15mFNC(*args):
-	var9m.set(0)
-	var10m.set(0)
-	var11m.set(0)
-	var12m.set(0)
-	var13m.set(0)
-	var14m.set(0)
-	var16m.set(o)
-	chineseName[2] = "儿子"
-	display("var15")
-
-def var16mFNC(*args):
-	var9m.set(0)
-	var10m.set(0)
-	var11m.set(0)
-	var12m.set(0)
-	var13m.set(0)
-	var14m.set(0)
-	var15m.set(0)
-	chineseName[2] = "女儿"
-	display("var16")
-
-
-#*******************************OUTPUT FUNCTION********************
-#What drives your output.  Everytime someone chances a check
-def display(a):
+def displaye(a):
 	print(chineseName[0])
 	#Constructo name
 	name = ""
@@ -334,9 +174,167 @@ def display(a):
 	outpute.insert(tk.END,name)
 	outpute.config(state = "disabled")
 
+
+#*************************************************************************************
+#*********************************MANDARIN********************************************
+#*************************************************************************************
+
+
+def var1mFNC(*args):
+	var2m.set(0)
+	chineseName[0] = "爸爸"
+	displaym("var1m")
+
+def var2mFNC(*args):
+	var1m.set(0)
+	chineseName[0] = "妈妈"
+	displaym("var2m")
+
+def var3mFNC(*args):
+	var4m.set(0)
+	var5m.set(0)
+	var6m.set(0)
+	var7m.set(0)
+	var8m.set(0)
+	chineseName[1] = "爸爸"
+	displaym("var3m")
+
+def var4mFNC(*args):
+	var3m.set(0)
+	var5m.set(0)
+	var6m.set(0)
+	var7m.set(0)
+	var8m.set(0)
+	chineseName[1] = "妈妈"
+	displaym("var4m")
+
+def var5mFNC(*args):
+	var3m.set(0)
+	var4m.set(0)
+	var6m.set(0)
+	var7m.set(0)
+	var8m.set(0)
+	chineseName[1] = "妹妹"
+	displaym("var5m")
+
+def var6mFNC(*args):
+	var3m.set(0)
+	var4m.set(0)
+	var5m.set(0)
+	var7m.set(0)
+	var8m.set(0)
+	chineseName[1] = "姐姐"
+	displaym("var6m")
+
+def var7mFNC(*args):
+	var3m.set(0)
+	var4m.set(0)
+	var5m.set(0)
+	var6m.set(0)
+	var8m.set(0)
+	chineseName[1] = "弟弟"
+	displaym("var7m")
+
+def var8mFNC(*args):
+	var3m.set(0)
+	var4m.set(0)
+	var5m.set(0)
+	var6m.set(0)
+	var7m.set(0)
+	chineseName[1] = "哥哥"
+	displaym("var8m")
+
+def var9mFNC(*args):
+	var10m.set(0)
+	var11m.set(0)
+	var12m.set(0)
+	var13m.set(0)
+	var14m.set(0)
+	var15m.set(0)
+	var16m.set(0)
+	chineseName[2] = "ba ba"
+	displaym("var9m")
+
+def var10mFNC(*args):
+	var9m.set(0)
+	var11m.set(0)
+	var12m.set(0)
+	var13m.set(0)
+	var14m.set(0)
+	var15m.set(0)
+	var16m.set(0)
+	chineseName[2] = "妈妈"
+	displaym("var10m")
+
+def var11mFNC(*args):
+	var9m.set(0)
+	var10m.set(0)
+	var12m.set(0)
+	var13m.set(0)
+	var14m.set(0)
+	var15m.set(0)
+	var16m.set(0)
+	chineseName[2] = "妹妹"
+	displaym("var11m")
+
+def var12mFNC(*args):
+	var9m.set(0)
+	var10m.set(0)
+	var11m.set(0)
+	var13m.set(0)
+	var14m.set(0)
+	var15m.set(0)
+	var16m.set(0)
+	chineseName[2] = "姐姐"
+	displaym("var12m")
+
+def var13mFNC(*args):
+	var9m.set(0)
+	var10m.set(0)
+	var11m.set(0)
+	var12m.set(0)
+	var14m.set(0)
+	var15m.set(0)
+	var16m.set(0)
+	chineseName[2] = "弟弟"
+	displaym("var13m")
+
+def var14mFNC(*args):
+	var9m.set(0)
+	var10m.set(0)
+	var11m.set(0)
+	var12m.set(0)
+	var13m.set(0)
+	var15m.set(0)
+	var16m.set(0)
+	chineseName[2] = "哥哥"
+	displaym("var14m")
+
+def var15mFNC(*args):
+	var9m.set(0)
+	var10m.set(0)
+	var11m.set(0)
+	var12m.set(0)
+	var13m.set(0)
+	var14m.set(0)
+	var16m.set(0)
+	chineseName[2] = "儿子"
+	display("var15m")
+
+def var16mFNC(*args):
+	var9m.set(0)
+	var10m.set(0)
+	var11m.set(0)
+	var12m.set(0)
+	var13m.set(0)
+	var14m.set(0)
+	var15m.set(0)
+	chineseName[2] = "女儿"
+	displaym("var16m")
+
 #*****************************************************************************
 
-def display(a):
+def displaym(a):
 	print(chineseName[0])
 	#Constructo name
 	name = ""
@@ -357,11 +355,20 @@ def display(a):
 	outputm.config(state = "disabled")
 
 
+
+
+
+
 #******************************************************************
-#index0 - first replation
-#index1 - second relation
-#index2 - third relation
+#******************************************************************
+#******************************************************************
+
+#index0 - first relative
+#index1 - second relative
+#index2 - third relative
 #add the three together I get name
+
+
 chineseName = ["First Relative","Second Relative","Third Relative"]
 
 root = tk.Tk()
@@ -369,8 +376,13 @@ root.title("Relative Calculator")
 
 tabControl = ttk.Notebook(root)
 
+#**************************************************************************************
+#**************************************************************************************
+#**************************************************************************************
+
 tab1 = ttk.Frame(tabControl)
 tabControl.add(tab1, text="English Version")
+
 
 
 #					Titles
@@ -421,19 +433,10 @@ var13e = tk.IntVar()
 var14e = tk.IntVar()
 var15e = tk.IntVar()
 var16e = tk.IntVar()
-#What the named parameter viriable does is binds 
-
-
-# 					Rectangles
-
-
-
-
-
-
+#What the named parameter variable does is binds 
 
 #              FIRST RELATIVE
-var1e.trace("w",var1eFNC)
+ 
 cHCe = tk.Checkbutton(tab1, text ="Dad", variable=var1e)
 cHCe.grid(row=4, column =0, sticky = "NESW")
 
@@ -443,8 +446,6 @@ cHCe.grid(row=5, column =0, sticky = "NESW")
 
 
 #              SECOND RELATIVE
-
-
 
 var3e.trace("w",var3eFNC)
 cHCe = tk.Checkbutton(tab1, text ="Dad", variable=var3e, font = ("Helvitica",13))
@@ -473,6 +474,7 @@ cHCe.grid(row=9, column =1, sticky = "NESW")
 
 
 #              THIRD RELATIVE
+
 var9e.trace("w",var9eFNC)
 cHCe = tk.Checkbutton(tab1, text ="Dad", variable=var9e, font = ("Helvitica",13))
 cHCe.grid(row=4, column =2, sticky = "NESW")
@@ -508,7 +510,9 @@ cHCe.grid(row=11, column =2, sticky = "NESW")
 
 
 
-#********************************
+#*********************************************************************************
+#*********************************************************************************
+#*********************************************************************************
 
 tab2 = ttk.Frame(tabControl)
 tabControl.add(tab2, text="Mandarin Version")
@@ -519,7 +523,6 @@ tabControl.add(tab2, text="Mandarin Version")
 #1) CONSTRUCT the Object: We build and configure it.
 #2) CONSTRUCT the Object: We specify behaviours and settings (OPTIONAL)
 #3) Pack the Object: Put it in the window.
-output = tk.Text(tab2,height = 30, width =10) #Parameters are what we send in.
 
 #					Titles
 
